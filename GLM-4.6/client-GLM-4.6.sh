@@ -1,4 +1,4 @@
-concurrency_values=(128 64 32 16 8 4)
+concurrency_values=(4) #(128 64 32 16 8 4)
 
 for concurrency in "${concurrency_values[@]}"; do
         echo "Running benchmark with --max-concurrency ${concurrency}"

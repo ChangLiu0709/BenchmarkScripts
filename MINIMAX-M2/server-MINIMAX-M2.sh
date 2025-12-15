@@ -1,8 +1,9 @@
 
 python3 -m sglang.launch_server \
-	--model MiniMaxAI/MiniMax-M2 \
+	--model /models/MiniMax-M2 \
+        --trust-remote-code \
 	--port 8000 \
-	--tp 8
+	--tp 4
 
 
 
